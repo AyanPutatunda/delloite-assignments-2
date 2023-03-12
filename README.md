@@ -1,13 +1,51 @@
-# GitHub Codespaces ♥️ Flask
+# MNIST Flask demo 
 
-Welcome to your shiny new Codespace running Flask! We've got everything fired up and running for you to explore Flask.
+For education purposes only.
+The model is the simple 2-hidden layer neural network, created using vectorized numpy network implementation
+[MLP MNIST](https://github.com/alm4z/mlp-mnist). 
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+## Live demo
+Live demo located [here](http://almaz.social/flaskmnist). 
 
-To run this application:
+![Demo screenshot](/static/imgs/demo.png?raw=true "Demo")
+
+
+## Requirements
+
+  * Python 3.>
+  * Flask
+  * OpenCV
+  * Numpy
+
+
+To install required libraries, use commands below:
+```
+pip install flask
+pip install opencv-python
+pip install numpy
 
 ```
-flask --debug run
+
+## Running
+Clone repository, go to the specified folder and run
 ```
+python application.py
+```
+```
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+```
+Open your browser and access the address http://127.0.0.1:5000/ .
+
+## Training
+If you want to try another MLP architecture, edit *train.py* and run
+```
+python train.py
+```
+## Credits
+* Signature pad (https://github.com/szimek/signature_pad).
+* MNIST pad (https://github.com/brloureiro/mnist-pad)
+
+## Contact
+If you have any further questions or suggestions, please, do not hesitate to contact by email at a.sadenov@gmail.com.
+
