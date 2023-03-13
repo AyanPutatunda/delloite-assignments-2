@@ -3,7 +3,7 @@
 Deploy (on a cloud provider [AWS, Azure, etc] or locally [docker, kubernetes, etc] ) an ML model such as (MNIST, Fashion MNIST), as an API endpoint.
 
 ## Solution
-Find a wokring lcode in github and writ teh flask end points for the same. Once done, docerize the entire app in github codespaces. 
+Find a wokring codebase in github and writ teh flask end points for the same. Once done, docerize the entire app in github codespaces. 
 
 ## Running
 1. Connect to github codespace or clone the repo in local.
